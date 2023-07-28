@@ -6,6 +6,8 @@
 
 El Administrador de Escuelas es un proyecto diseñado para facilitar la gestión de escuelas y sus respectivos cursos, asignaturas y alumnos. Permite a los usuarios agregar, modificar y eliminar escuelas, cursos, asignaturas y alumnos, y también registrar las evaluaciones de los alumnos en cada asignatura.
 
+El proyecto inyecta información generada a modo de ejemplo, si quiere remover esta información lo puede hacer desde el archivo Models/EscuelaContext.cs y borrar la sobreescritura del método OnModelCreating y los posteriores método abajo de este.
+
 ## Tecnologías Utilizadas
 
 - C#
