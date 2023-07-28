@@ -30,8 +30,7 @@ El proyecto inyecta información generada a modo de ejemplo, si quiere remover e
 
 1. Clona el repositorio en tu equipo local.
 2. Abre el proyecto en Visual Studio o en tu editor de código preferido.
-3. Ejecuta el comando `update-database` para crear la base de datos en tu instancia local.
-4. Ejecuta la aplicación si estás en VS o ejecuta el comando `dotnet run` para iniciar la aplicación si estás en otro IDE.
+3. Ejecuta la aplicación si estás en VS o ejecuta el comando `dotnet run` para iniciar la aplicación si estás en otro IDE.
 
 ## Uso
 
