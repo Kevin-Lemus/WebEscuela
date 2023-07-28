@@ -1,0 +1,20 @@
+﻿<table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            @foreach(var obj in Model)
+            {
+                <tr>
+                    <td>@obj.Id</td>
+                    <td>@obj.Nombre</td>
+                    <td>@Html.ActionLink("Editar","Crear","Alumno", new{alumnoId = obj.Id}, new {@class = "btn btn-success"})
+                    @Html.ActionLink("Borrar","Borrar","Alumno", new{alumnoId = obj.Id}, new {@class = "btn btn-danger"})</td>
+                </tr>  
+            }
+        </tbody>
+ </table>
